@@ -1,0 +1,18 @@
+# Maven
+target/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Log
+*.log
+
+Dockerfile
+src/test/
