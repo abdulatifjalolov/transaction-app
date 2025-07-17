@@ -27,7 +27,7 @@ docker build -t transaction-app .
 ### 3. Run the container
 
 ```bash
-docker run --add-host=host.docker.internal:host-gateway transaction-app
+docker run -p 8080:8080 --add-host=host.docker.internal:host-gateway transaction-app
 ```
 ---
 
