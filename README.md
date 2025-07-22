@@ -16,19 +16,11 @@ cd transaction-app
 
 ---
 
-### 2. Build Docker image
-
-```bash
-docker build -t transaction-app .
+### 2. Run the application using Docker Compose
+```   bash
+   docker-compose up --build
 ```
 
----
-
-### 3. Run the container
-
-```bash
-docker run -p 8080:8080 --add-host=host.docker.internal:host-gateway transaction-app
-```
 ---
 
 ## 📖 API Documentation (Swagger)

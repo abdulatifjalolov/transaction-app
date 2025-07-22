@@ -3,10 +3,9 @@ server:
 
 spring:
   datasource:
-#    url: jdbc:postgresql://localhost:5432/finance_db
-    url: jdbc:postgresql://host.docker.internal:5432/finance_db
+    url: jdbc:postgresql://db:5432/transaction_db
     username: postgres
-    password: 1
+    password: postgres
     driver-class-name: org.postgresql.Driver
 
   jpa:
